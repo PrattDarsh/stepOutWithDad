@@ -43,10 +43,24 @@
         font-family: creamy;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
 </style>
 
 <body class="">
-    <section class=" bg_green text_white" style="background-image: url(images/Background/scenery.svg) ;">
+    <div class="fixed top-0 bg-white p-2 w-screen shadow-md z-40">
+        <div class="max-w-6xl mx-auto flex justify-between">
+            <img src="images/logo.svg" alt="">
+            <div class="flex items-center justify-center space-x-6">
+                <a href="#home">Home</a>
+                <a href="">Blog</a>
+            </div>
+        </div>
+
+    </div>
+    <section class=" bg_green text_white" style="background-image: url(images/Background/scenery.svg) ;" id="home">
         <div class="pt-32 max-w-6xl mx-auto flex items-center space-x-4">
             <div class="space-y-4 max-w-xl">
                 <h1 class="text-6xl creamy">Understanding our children starts with every step we take together.</h1>
